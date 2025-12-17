@@ -111,7 +111,7 @@ let provider;
 let signer;
 async function connectWallet() {
     if (!window.ethereum) {
-        alert("❌ MetaMask not installed");
+        alert("MetaMask not installed");
         return;
     }
     try {
@@ -177,3 +177,4 @@ async function getTransactions() {
 
 </body>
 </html>
+
